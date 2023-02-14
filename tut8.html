@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>This is html form</h2>
+    <form action="backend.php">
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="role"> Role: </label>
+           <input type="text" id="role">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="myEmail" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="date"> Date: </label> 
+           <input type="date" name="myDate">  
+        </div>
+        <br>
+        <div>
+            <label for="bonus">Bonus: </label>
+            <input type="number" name="myBonus" id="bonus">  
+        </div>
+        <br>
+        <div>
+            <label for="Eligibility">Are You Elligible</label>
+            <input type="checkbox" name="myCheckbox" id="Eligibility">
+        </div>
+        <br>
+        <div>
+            Gender : Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Other <input type="radio" name="myGender">
+        </div>
+        <div>
+            <label for="yourself">Write about yourself: </label>
+            <br><textarea name="myText" cols="30" rows="10" id="yourself"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="ind">indigo</option>
+                <option value="swf">Swift</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now"> 
+        </div>
+        <div>
+            <input type="reset" name="Reset Now">
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+ /* Element Selector */
+ p{
+    color: blue;
+}
+/* class selector */
+.firstpara{
+    color: white;
+    background-color: blueviolet;
+}
+/* id selector */
+#redElement{
+    color: red;
+}
+/* grouping selector */
+footer, span{
+    background-color: pink;
+}
